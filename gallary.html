@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallary</title>
+<link rel="stylesheet" href="gallary.css"/>		<!--linking of css-->
+  </head>
+  
+  <body>
+    <h2>Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">		<!--here are the 12 images serially displayed in big screen--> 
+    <div class="numbertext">1</div>
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CoverPage_Effectiveness-of-Corporate-training.jpg" style="width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2</div>
+    <img src="https://kist.ac.in/site/wp-content/uploads/2019/05/Pre-Placement-Training@KIST-2019-Batch-12.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3</div>
+    <img src="https://thumbs.dreamstime.com/b/multiracial-businesspeople-attending-corporate-group-training-diverse-business-people-executive-team-listening-to-presentation-111346674.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4</div>
+    <img src="https://www.pyramidcollege.edu.in/images/inner-page/department-of-placement.jpg" style="width:100% ;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5</div>
+    <img src="https://i0.wp.com/www.wallstreetenglish.in.th/wp-content/uploads/2019/08/shutterstock_1253308783-1.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6</div>
+    <img src="http://www.impressionconsult.com/web/images/articles/training-session.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">7</div>
+    <img src="https://www.srmup.in/images/pacement-page-1.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">8</div>
+    <img src="https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2021/04/01092516/whiteboard-training.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">9</div>
+    <img src="https://dhaanish.in/wp-content/uploads/2020/01/PLACEMENT-AWARNESS-TRAINING-01.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10</div>
+    <img src="https://i1.wp.com/kcgcollege.ac.in/wp-content/uploads/2019/04/tri-iv-yr-tab2.jpg?ssl=1" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">11</div>
+    <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2012/07/25/266964.jpg?itok=oLrQCkqB" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">12</div>
+    <img src="https://5.imimg.com/data5/ML/HJ/EH/GLADMIN-42599840/training-and-placement-500x500.jpg" style="width:100%">
+  </div>
+  
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>		<!--These are used to get the next and previous image required-->
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  
+
+  <div class="row">
+    <div class="column">		<!--Here are all the images displayed serially below the big image-->
+      <img class="demo cursor" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CoverPage_Effectiveness-of-Corporate-training.jpg" style="width:100%; height:150px;" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://kist.ac.in/site/wp-content/uploads/2019/05/Pre-Placement-Training@KIST-2019-Batch-12.jpg" style="width:100%; height:150px;" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://thumbs.dreamstime.com/b/multiracial-businesspeople-attending-corporate-group-training-diverse-business-people-executive-team-listening-to-presentation-111346674.jpg" style="width:100%; height:150px;" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.pyramidcollege.edu.in/images/inner-page/department-of-placement.jpg" style="width:100%; height:150px;" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i0.wp.com/www.wallstreetenglish.in.th/wp-content/uploads/2019/08/shutterstock_1253308783-1.jpg" style="width:100%; height:150px" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="http://www.impressionconsult.com/web/images/articles/training-session.jpg" style="width:100%; height:150px;" onclick="currentSlide(6)"></div>
+      
+      <div class="column">
+      <img class="demo cursor" src="https://www.srmup.in/images/pacement-page-1.jpg" style="width:100%; height:140px; " onclick="currentSlide(7)" ></div>
+        
+        <div class="column">
+      <img class="demo cursor" src="https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2021/04/01092516/whiteboard-training.jpg" style="width:100% ;" onclick="currentSlide(8)" ></div>
+          
+          <div class="column">
+      <img class="demo cursor" src="https://dhaanish.in/wp-content/uploads/2020/01/PLACEMENT-AWARNESS-TRAINING-01.jpg" style="width:100%" onclick="currentSlide(9)" ></div>
+            
+            <div class="column">
+      <img class="demo cursor" src="https://i1.wp.com/kcgcollege.ac.in/wp-content/uploads/2019/04/tri-iv-yr-tab2.jpg?ssl=1" style="width:100%; height:140px;" onclick="currentSlide(10)" ></div>
+              
+              <div class="column">
+      <img class="demo cursor" src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2012/07/25/266964.jpg?itok=oLrQCkqB" style="width:100%" onclick="currentSlide(11)" >
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="https://5.imimg.com/data5/ML/HJ/EH/GLADMIN-42599840/training-and-placement-500x500.jpg" style="width:100%; height:140px;" onclick="currentSlide(12)" >
+    </div>
+  </div>
+</div>
+
+<!--whatsapp logo-->
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?55046';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"Message Us",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"left",
+      },
+      "brandSetting":{
+          "brandName":"Origin group Pvt Ltd",
+          "brandSubTitle":"Typically replies within a day",
+          "brandImg":"https://live.staticflickr.com/8821/17074861125_399f3f78a4_n.jpg",
+          "welcomeText":"Hi there!\nHow can I help you?",
+          "messageText":"Hello, I have a question about",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"6000090000"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
+ <script src="gallary.js"></script>		<!--linking of java script-->
+    
+</body>
+</html>
+  

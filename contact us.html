@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <title>Contact Us</title>
+  
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="contact us.css"/>		<!--linking of stylesheet-->
+
+  
+</head>
+  
+  <body>
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>		<!--heading with small description-->
+        <p>We would love to hear it from you on your query</p>
+      </div>
+      
+      <div class="container">
+      <div class="contactInfo">
+        <div class="box">		<!--address icon along with information is displayed-->
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>4671 Sugar Camp Road,<br>Owatonna,Minnesota,<br>55060</p>
+          </div>
+          </div>
+        
+   <div class="box">			<!--contact number with icon-->
+     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+     <div class="text">
+       <h3>Phone</h3>
+       <p>507-475-6094</p>
+     </div>
+        </div>
+        
+        <div class="box">	<!--email with icon-->
+     <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+     <div class="text">
+       <h3>Email</h3>
+       <p>origin@temporary.gmail.com</p>
+     </div>
+     </div>
+     </div>
+  
+        
+    <div class="container">		<!--input contact form from the user with their name, phone number, email, message along with submit button-->
+  <form action="connect.php" method="POST">
+    <label for="fullname"> <strong id="st1">Full Name</strong></label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your name.."/>
+
+    <label for="phonenumber"><strong id="st1">Phone Number</strong></label>
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your Phone number" pattern="[0-9]{10}"/>
+	    
+    <label for="email"><strong id="st1">Email</strong></label>
+    <input type="text" id="email" name="email" placeholder="Your email id">
+
+    
+    <label for="message"><strong id="st1">Type your message</strong></label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit" onclick="dofunction()"/>
+         </form>
+</div>
+     
+        
+    </div>
+  </section>
+
+
+<script src="contact us.js"></script>
+
+
+ </body>
+</html>
+  
